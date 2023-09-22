@@ -10,11 +10,11 @@
     "react-scripts": "^1.0.0"
   },
   "name": "tic-tac-toe",
-  "description": null,
+  "description": "Tic Tac Toe, built with React.",
   "version": "0.0.0",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
